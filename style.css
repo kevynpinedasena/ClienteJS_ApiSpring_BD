@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(164, 90, 233);
+}
+
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container{
+    width: 60%;
+    height: 650px;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 10px rgba(0, 0, 0, 0.521);
+}
+
+.buscar{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.buscar .form-control {
+    width: 65%;
+}
+
+.buscar button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: rgb(34, 236, 95);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.input .form-control {
+    width: 88%;
+    height: 45px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.botones button{
+    width: 28%;
+    height: 45px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

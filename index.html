@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cliente</title>
+</head>
+<body>
+
+    <div class="title">
+        <h1>CONSUMO DE API CON BD</h1>
+    </div>
+
+    <div class="cont">
+        <div class="container">
+            <div class="buscar">
+                <input type="text" class="form-control" placeholder="Documento" id="documento" aria-label="Username" aria-describedby="basic-addon1">
+                <button type="button" class="btn btn-success" onclick="obtenerPersona()">Buscar</button>
+            </div>
+            
+            <div class="input">
+                <input type="text" id="nombre" class="form-control" placeholder="Nombre" id="documento" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" id="apellido" class="form-control" placeholder="Apellido" id="documento" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" id="edad" class="form-control" placeholder="Edad" id="documento" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        
+            <div class="botones">
+                <button type="button" class="btn btn-outline-primary" onclick="registrar()" >Registrar</button>
+                <button type="button" class="btn btn-outline-warning" onclick="actualizar()" ">Actualizar</button>
+                <button type="button" class="btn btn-outline-danger" onclick="eliminar()" >Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="cliente.js"></script>
+    
+</body>
+</html>
